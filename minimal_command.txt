@@ -1,0 +1,1 @@
+pathflow-mixmatch register_images --im1 HE_99E1_p3_cropped.tif --im2 HE_99E1_p3_cropped_TEMPLATE.tif --fix_rotation False --output_dir ../output/ --gpu_device -1 --transform_type similarity --lr 0.01 --iterations 1000 --min_object_size 50000
